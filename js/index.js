@@ -5,10 +5,10 @@ const calcSumma = function(arr){
 
     if(summa>50 && summa<300 ){
         const sum= summa + summa /100 * 15
-        s.push(sum)
+        s.push(`${sum} sum`)
     }else{
         const  a= summa +summa/100 *20
-        s.push(a)
+        s.push(`${a} sum`)
     }
 
     return s
